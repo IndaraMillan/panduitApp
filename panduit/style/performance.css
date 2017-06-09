@@ -1,0 +1,30 @@
+.gray-text {
+        color: darkslategray;
+        font-weight: bold;
+        font-family: Lobster, Sans-serif;
+        font-size: 40px;
+    }
+    
+    div.general-box {
+        width: auto;
+        margin: auto;
+    }
+    
+    div.box1 {
+        width: 600px;
+        margin-left: 20px;
+    }
+    
+    div.container {
+        width: 600px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    img.logo {
+        height: 200px;
+    }
+    
+    .body-background {
+        background-image: url("WhiteGeometric.png");
+    }

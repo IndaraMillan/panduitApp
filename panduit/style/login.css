@@ -1,0 +1,30 @@
+.green-text {
+    color:turquoise;
+    font-family: Lobster,  Sans-serif;
+    font-size: 50px;
+  }
+
+
+  .baloo-bhaina{
+    font-size: 16px;
+    font-family: Baloo+Bhaina, Monospace;
+  }
+  
+  h1{
+    font-size: 100px;
+    font-weight: bold;  
+    font-family:Alfa+Slab+One, Monospace;
+    color:darkslategray;
+
+  }
+
+
+  .smaller-image {
+    width: 100px;
+  }
+  .silver-background {
+    background-color: yellow;
+  }
+  .body-background{
+      background-image: url("WhiteGeometric.png");
+  } 

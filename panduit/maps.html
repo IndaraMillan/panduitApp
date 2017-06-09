@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img\favicon.ico">
+    <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.2/themes/ui-darkness/jquery-ui.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- graph-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Pricing</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a onclick = "redirecTool()">Tool</a></li>
+                    <li ><a onclick = "redirecCharts()">Performance</a></li>
+                    <li class="active"><a onclick = "redirecMaps()">Maps</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a onclick= "logout()"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-1 sidenav picker">
+                
+
+
+            </div>
+            <div class="col-sm-9 text-left">
+                <h1>IEI Management Map</h1>
+                <p>
+                    <img  height="600" src="img\IEIManagement.png" alt="IEI Management map">
+                </p>
+                <hr>
+                <h1>EDI Management Map</h1>
+                <p>
+
+                    <img  height="600" src="img\EDIManagement.png" alt="IEI Management map">
+
+                </p>
+            </div>
+            <div class="col-sm-2 sidenav">
+                <div class="well">
+                    <p>ADS</p>
+                </div>
+                <div class="well">
+                    <p>ADS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p>Maps</p>
+    </footer>
+<script src="js/userCharts.js"></script>
+<script src="js/logout.js"></script> 
+<script src="js/login.js"></script>  
+<script src="js/performance.js"></script>  
+</body>
+
+</html>
