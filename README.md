@@ -34,3 +34,6 @@ $ yo flux:action ActionCreatorName
 ```bash
 $ yo flux:store StoreName
 ```
+
+# Author:
+Indara Millan
